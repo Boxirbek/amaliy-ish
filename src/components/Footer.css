@@ -1,0 +1,96 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subscribe-form input {
+  padding: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  flex: 1;
+}
+
+.subscribe-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid #333;
+}
+
+.payment-icons {
+  display: flex;
+}
+
+.payment-placeholder {
+  width: 50px;
+  height: 30px;
+  background-color: #333;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

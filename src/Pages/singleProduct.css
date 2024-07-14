@@ -1,0 +1,32 @@
+.single-product-page {
+    display: flex;
+    padding: 20px;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details h1 {
+    margin: 0;
+}
+
+.product-details p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-details button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
